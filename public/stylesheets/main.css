@@ -1,9 +1,35 @@
 body {
-  padding: 50px;
+  margin: 0;
+  padding: 0;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  background: deeppink;
 }
 
-a {
-  color: #00B7FF;
+#logo {
+  float: left;
+  height:80px;
+  padding-left: 1em;
+}
+
+.nav-bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.nav {
+    float: left;
+}
+
+.nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    background-color: #111;
 }
